@@ -209,6 +209,10 @@ a:focus {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    html {
+        padding: 48px 48px 24px;
+    }
+
     h1 {
         font-size: 58px;
         line-height: 64px;
