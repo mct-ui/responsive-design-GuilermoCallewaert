@@ -33,13 +33,13 @@ body {
  */
 
 ::-moz-selection {
-    background: deeppink;
+    background: #e85e00;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: deeppink;
+    background: #e85e00;
     color: white;
     text-shadow: none;
 }
