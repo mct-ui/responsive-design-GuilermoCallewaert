@@ -105,7 +105,7 @@ ol {
 }
 
 li ul,
-li ol{
+li ol {
     margin-bottom: 0;
 }
 
@@ -156,6 +156,7 @@ a:focus {
     ---
     Creates a horizontal container that sets de global max-width
 */
+
 /*
 .o-container {
     margin-left: auto;
@@ -163,6 +164,7 @@ a:focus {
     max-width: 1440px;
 }
 */
+
 /*
     Objects: Grid
     ---
@@ -174,22 +176,26 @@ a:focus {
     ---
     Creates a horizontal row with padding
 */
+
 /*
 .c-row {
     position: relative;
     padding: 24px 24px 0;
 }
 */
+
 /*
     Utility classes
     ---
     Several helper classes
 */
+
 /*
 .u-max-width-sm {
     max-width: 36em
 }
 */
+
 /*
     Media Queries
     ---
@@ -203,16 +209,15 @@ a:focus {
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
 
-}
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
     html {
         padding: 48px 48px 24px;
     }
-
     h1 {
         font-size: 58px;
         line-height: 64px;
@@ -220,14 +225,12 @@ a:focus {
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
-@media (min-width: 992px) {
 
-}
+@media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
-}
+@media (min-width: 1200px) {}
 
 /*
     Print styles.
@@ -241,35 +244,30 @@ a:focus {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
     pre {
         white-space: pre-wrap !important;
     }
@@ -278,28 +276,23 @@ a:focus {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;
