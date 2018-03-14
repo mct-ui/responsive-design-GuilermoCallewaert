@@ -311,7 +311,27 @@ a:focus {
     white-space: nowrap;
 }
 
+/*
+    Utilities: max-width
+    ---
+    Utility classes to put specific max widths onto elements
 */
+
+.u-max-width-sm {
+    max-width: 36em !important;
+}
+
+.u-max-width-md {
+    max-width: 45em !important;
+}
+
+.u-max-width-lg {
+    max-width: 60em !important;
+}
+
+.u-max-width-xl {
+    max-width: 75em !important;
+}
 
 /*
     Utility classes
