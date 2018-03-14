@@ -17,21 +17,14 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
-    padding: 48px 24px 24px;
-}
-
-body {
-    max-width: 42em;
-    margin: 0 auto;
-}
-
-/* html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-} */
+}
 
 /*
  * Remove text-shadow in selection highlight:
