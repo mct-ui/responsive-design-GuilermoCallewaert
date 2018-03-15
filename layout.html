@@ -68,8 +68,8 @@
             <div class="o-container">
                 <h2>Layout items combined with responsive width utilities</h2>
                 <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2</p></div>
+                    <div class="o-layout__item u-1-of-2-bp1"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp1</p></div>
+                    <div class="o-layout__item u-1-of-2-bp1"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp1</p></div>
                     <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-3-bp3</p></div>
                     <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-3-bp3</p></div>
                     <div class="o-layout__item u-1-of-3-bp3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3-bp3</p></div>
@@ -114,12 +114,12 @@
             <div class="o-container">
                 <h2>Reversed row layout modifier</h2>
                 <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm first in order</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm second in order</p></div>
+                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>first</strong> in order</p></div>
+                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>second</strong> in order</p></div>
                 </div>
                 <div class="o-layout o-layout--gutter o-layout--row-reverse">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm first in order</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm second in order</p></div>
+                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>first</strong> in order</p></div>
+                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>second</strong> in order</p></div>
                 </div>
             </div>
         </section>
@@ -150,168 +150,198 @@
                 </div>
             </div>
         </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Layout examples</h2>
-            </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <div class="o-layout o-layout--gutter-lg o-layout--align-center o-layout--justify-space-around">
-                    <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
-                        <figure>
-                            <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
-                        </figure>
-                    </div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
-                        <h3>I'm second in order</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                        </p>
-                    </div>
+        <section>
+            <header class="o-row o-row--lg">
+                <div class="o-container">
+                    <h2>Example 1</h2>
                 </div>
-            </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <div class="o-layout o-layout--gutter-lg o-layout--align-center o-layout--justify-space-around o-layout--row-reverse">
-                    <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
-                        <figure>
-                            <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
-                        </figure>
-                    </div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
-                        <h3>I'm second in order</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <div class="o-layout o-layout--gutter-lg">
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
-                        <figure>
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <h3>I'm first in order</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                        </p>
-                    </article>
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
-                        <figure>
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <h3>I'm second in order</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                        </p>
-                    </article>
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
-                        <figure>
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <h3>I'm third in order</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                        </p>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <div class="o-layout o-layout--gutter-lg">
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout o-layout--align-content-space-between">
-                        <figure>
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <div>
-                            <h3>I'm first in order</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui.
-                            </p>
+            </header>
+            <article class="o-row o-row--lg">
+                <div class="o-container">
+                    <div class="o-layout o-layout--gutter-lg o-layout--align-center o-layout--justify-space-around">
+                        <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
+                            <figure>
+                                <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
+                            </figure>
                         </div>
-                    </article>
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout o-layout--align-content-space-between">
-                        <figure>
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <div>
+                        <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
                             <h3>I'm second in order</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout o-layout--align-content-space-between">
-                        <figure>
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <div>
-                            <h3>I'm third in order</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
                             </p>
                         </div>
-                    </article>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <div class="o-layout o-layout--gutter-lg o-layout--align-baseline">
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout">
-                        <figure class="o-layout o-layout--align-end">
-                            <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <div>
-                            <h3>I'm first in order</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui.
-                            </p>
+            </article>
+            <article class="o-row o-row--lg">
+                <div class="o-container">
+                    <div class="o-layout o-layout--gutter-lg o-layout--align-center o-layout--justify-space-around o-layout--row-reverse">
+                        <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
+                            <figure>
+                                <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
+                            </figure>
                         </div>
-                    </article>
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout">
-                        <figure class="o-layout o-layout--align-end">
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <div>
+                        <div class="o-layout__item u-1-of-2-bp2 u-2-of-5-bp4">
                             <h3>I'm second in order</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout">
-                        <figure class="o-layout o-layout--align-end">
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </figure>
-                        <div>
-                            <h3>I'm third in order</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
                             </p>
                         </div>
-                    </article>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <header class="o-row o-row--lg">
+                <div class="o-container">
+                    <h2>Example 2</h2>
+                </div>
+            </header>
+            <div class="o-row o-row--lg">
+                <div class="o-container">
+                    <div class="o-layout o-layout--gutter-lg">
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
+                            <figure>
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <h3>I'm first in order</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                            </p>
+                        </article>
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
+                            <figure>
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <h3>I'm second in order</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                            </p>
+                        </article>
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
+                            <figure>
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <h3>I'm third in order</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                            </p>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <figure>
-                    <div class="o-layout o-layout--gutter o-layout--align-end">
-                        <div class="o-layout__item u-2-of-3-bp3">
-                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                        </div>
-                        <div class="o-layout__item u-1-of-3-bp3">
-                            <figcaption class="u-max-width-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.</figcaption>
-                        </div>
+        <section>
+            <header class="o-row o-row--lg">
+                <div class="o-container">
+                    <h2>Example 3</h2>
+                </div>
+            </header>
+            <div class="o-row o-row--lg">
+                <div class="o-container">
+                    <div class="o-layout o-layout--gutter-lg">
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout o-layout--align-content-space-between">
+                            <figure>
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <div>
+                                <h3>I'm first in order</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout o-layout--align-content-space-between">
+                            <figure>
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <div>
+                                <h3>I'm second in order</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout o-layout--align-content-space-between">
+                            <figure>
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <div>
+                                <h3>I'm third in order</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                                </p>
+                            </div>
+                        </article>
                     </div>
-                </figure>
+                </div>
+            </div>
+        </section>
+        <section>
+            <header class="o-row o-row--lg">
+                <div class="o-container">
+                    <h2>Example 4</h2>
+                </div>
+            </header>
+            <div class="o-row o-row--lg">
+                <div class="o-container">
+                    <div class="o-layout o-layout--gutter-lg o-layout--align-baseline">
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout">
+                            <figure class="o-layout o-layout--align-end">
+                                <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <div>
+                                <h3>I'm first in order</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout">
+                            <figure class="o-layout o-layout--align-end">
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <div>
+                                <h3>I'm second in order</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 o-layout">
+                            <figure class="o-layout o-layout--align-end">
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </figure>
+                            <div>
+                                <h3>I'm third in order</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <header class="o-row o-row--lg">
+                <div class="o-container">
+                    <h2>Example 5</h2>
+                </div>
+            </header>
+            <div class="o-row o-row--lg">
+                <div class="o-container">
+                    <figure>
+                        <div class="o-layout o-layout--gutter o-layout--align-end">
+                            <div class="o-layout__item u-2-of-3-bp3">
+                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                            </div>
+                            <div class="o-layout__item u-1-of-3-bp3">
+                                <figcaption class="u-max-width-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
             </div>
         </section>
     </body>
