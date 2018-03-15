@@ -175,13 +175,13 @@ a:focus {
     padding: 24px 24px 0;
 }
 
-.o-row--grey-dark {
-    background-color: #111;
+.o-row--primary {
+    background: #e85e00;
     color: white;
 }
 
-.o-row--primary {
-    background: #e85e00;
+.o-row--grey-dark {
+    background-color: #111;
     color: white;
 }
 
