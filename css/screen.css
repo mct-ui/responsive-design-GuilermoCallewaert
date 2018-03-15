@@ -345,6 +345,10 @@ a:focus {
     max-width: 75em !important;
 }
 
+.u-max-width-none {
+    max-width: none !important;
+}
+
 /*
     Utility: Widths
     ---
