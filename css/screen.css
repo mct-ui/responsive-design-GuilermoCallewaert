@@ -1,10 +1,10 @@
-/*
-    Fonts
-    ---
-    @font-face declarations
-*/
+/*------------------------------------*\
+  #FONTS
+\*------------------------------------*/
 
-/* PUT ALL YOUR @font-face DECLARATIONS HERE */
+/*------------------------------------*\
+  #ELEMENTS
+\*------------------------------------*/
 
 /*
     Elements: Page
@@ -159,6 +159,10 @@ a:focus {
     color: Crimson;
 }
 
+/*------------------------------------*\
+  #OBJECTS
+\*------------------------------------*/
+
 /*
     Objects: Row
     ---
@@ -285,7 +289,9 @@ a:focus {
     padding: 0 24px;
 }
 
-/* PUT ALL YOUR COMPONENTS HERE */
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
 
 /*
     Component: Component name
@@ -311,6 +317,10 @@ a:focus {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+/*------------------------------------*\
+  #UTILITIES
+\*------------------------------------*/
 
 /*
     Utilities: max-width
@@ -549,34 +559,37 @@ a:focus {
     }
 }
 
+/*------------------------------------*\
+  #MEDIA
+\*------------------------------------*/
 
 /*
     Media Queries
     ---
     EXAMPLE Media Queries for Responsive Design.
     These examples override the primary ('mobile first') styles.
-    Modify as content requires.
+    USE THEM INLINE!
 */
 
 /* Extra small devices (portrait phones, less than 576px)
-   No media query since this is the default in Bootstrap
+   No media query since this is the default in mobile first design
 */
 
-/* Small devices (landscape phones, 576px and up) */
-
+/* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {}
+*/
 
-/* Medium devices (tablets, 768px and up) */
-
+/* Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {}
+*/
 
-/* Large devices (landscape tablets, desktops, 992px and up) */
-
+/* Large devices (landscape tablets, desktops, 992px and up)
 @media (min-width: 992px) {}
+*/
 
-/* Extra large devices (large desktops, 1200px and up) */
-
+/* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}
+*/
 
 /*
     Print styles.
