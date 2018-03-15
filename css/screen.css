@@ -180,6 +180,11 @@ a:focus {
     color: white;
 }
 
+.o-row--primary {
+    background: #e85e00;
+    color: white;
+}
+
 @media (min-width: 768px) {
     .o-row--lg {
         padding: 48px 48px 24px;
