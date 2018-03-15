@@ -212,18 +212,30 @@ a:focus {
         width: 100%;
     }
 
-/* gutter modifiers */
+/* gutter modifiers, these affect o-layout__item too */
 
 .o-layout--gutter {
     margin: 0 -12px;
+}
+
+.o-layout--gutter > .o-layout__item {
+    padding: 0 12px;
 }
 
 .o-layout--gutter-sm {
     margin: 0 -6px;
 }
 
+.o-layout--gutter-sm > .o-layout__item {
+    padding: 0 6px;
+}
+
 .o-layout--gutter-lg {
     margin: 0 -24px;
+}
+
+.o-layout--gutter-lg > .o-layout__item {
+    padding: 0 24px;
 }
 
 /* reverse horizontal row modifier */
@@ -270,20 +282,6 @@ a:focus {
 
 .o-layout--justify-space-between {
     justify-content: space-between;
-}
-
-/* a layout item's padding is based on the modifier of the o-layout block */
-
-.o-layout--gutter-sm > .o-layout__item {
-    padding: 0 6px;
-}
-
-.o-layout--gutter > .o-layout__item {
-    padding: 0 12px;
-}
-
-.o-layout--gutter-lg > .o-layout__item {
-    padding: 0 24px;
 }
 
 /*------------------------------------*\
