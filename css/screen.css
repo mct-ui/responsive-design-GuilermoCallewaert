@@ -166,6 +166,7 @@ a:focus {
 */
 
 .o-row {
+    position: relative;
     padding: 24px 24px 0;
 }
 
