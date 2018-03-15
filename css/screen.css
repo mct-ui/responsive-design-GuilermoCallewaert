@@ -549,21 +549,6 @@ a:focus {
     }
 }
 
-/*
-    Utility: border-radius
-*/
-
-.u-rounded {
-    border-radius: 100%;
-}
-
-/*
-    Utility: text
-*/
-
-.u-text-center {
-    text-align: center;
-}
 
 /*
     Media Queries
