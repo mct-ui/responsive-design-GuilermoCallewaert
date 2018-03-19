@@ -3,13 +3,13 @@
 \*------------------------------------*/
 
 /*------------------------------------*\
-  #Generic
+  #GENERIC
 \*------------------------------------*/
 
 /*
     Generic: Page
     ---
-    Global styles 
+    Global page styles + universal box-sizing:
 */
 
 html {
@@ -46,7 +46,7 @@ html {
 }
 
 /*------------------------------------*\
-  #Generic
+  #Elements
 \*------------------------------------*/
 
 /*
@@ -72,14 +72,6 @@ h1 {
     font-weight: normal;
     line-height: 40px;
     margin: 0 0 24px;
-}
-
-/* Example inline media query */
-@media (min-width: 768px) {
-    h1 {
-        font-size: 58px;
-        line-height: 64px;
-    }
 }
 
 h2 {
@@ -162,6 +154,14 @@ a:active {
 a:hover,
 a:focus {
     color: Crimson;
+}
+
+/* Example inline media query */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 58px;
+        line-height: 64px;
+    }
 }
 
 /*------------------------------------*\
@@ -274,6 +274,10 @@ a:focus {
 
 .o-layout--justify-space-around {
     justify-content: space-around;
+}
+
+.o-layout--justify-space-evenly {
+    justify-content: space-evenly;
 }
 
 .o-layout--justify-space-between {
@@ -429,12 +433,6 @@ a:focus {
 
 .u-mb-xl {
     margin-bottom: 48px !important;
-}
-
-@media (min-width: 768px) {
-    .u-mb-xl-bp2 {
-        margin-bottom: 48px !important;
-    }
 }
 
 /*
