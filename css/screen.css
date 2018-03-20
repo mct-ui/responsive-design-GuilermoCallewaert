@@ -473,16 +473,19 @@ a:focus {
 }
 
 /*
-    Component: layout block
+    Component: header
     ---
-    A small component to demonstrate the layout items
+    Main header of the website
 */
 
-.c-layout-block {
-    background-color: LightGrey;
-    padding: 8px 12px;
-    font-size: 14px;
-    line-height: 16px;
+@media (min-width: 992px) {
+    .c-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 }
 
 .c-layout-block--ellipsis {
