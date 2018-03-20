@@ -65,13 +65,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #e85e00;
+    background: #5051DB;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #5051DB;
     color: white;
     text-shadow: none;
 }
@@ -98,7 +98,6 @@ img {
 */
 
 h1 {
-    font-family: "Times New Roman", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
@@ -159,10 +158,14 @@ blockquote * {
 }
 
 figcaption {
+    font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
-    padding-top: 8px;
-    color: Grey;
+    line-height: 15px;
+    margin-top: 8px;
+    padding-left: 6px;
+    padding-top: 1px;
+    color: #3C3C42;
+    border-left: 2px solid #5051DB;
 }
 
 hr {
@@ -173,26 +176,18 @@ hr {
 }
 
 a {
-    color: RoyalBlue;
+    color: #5051DB;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: BlueViolet;
+    color: #3E3EA8;
 }
 
 a:hover,
 a:focus {
-    color: Crimson;
-}
-
-/* Example inline media query */
-@media (min-width: 768px) {
-    h1 {
-        font-size: 58px;
-        line-height: 64px;
-    }
+    color: #3E3EA8;
 }
 
 /*------------------------------------*\
