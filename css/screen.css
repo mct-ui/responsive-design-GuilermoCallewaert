@@ -429,6 +429,17 @@ a:focus {
     align-content: space-between;
 }
 
+/*
+    Objects: List
+    ---
+    Small reusable object to remove default list styling from lists
+*/
+
+.o-list {
+    list-style: none;
+    padding: 0;
+}
+
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
