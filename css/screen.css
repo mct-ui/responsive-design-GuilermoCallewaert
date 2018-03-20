@@ -202,23 +202,75 @@ a:focus {
 
 .o-row {
     overflow: auto;
+    position: relative;
     padding: 24px 24px 0;
 }
 
-.o-row--primary {
-    background: #e85e00;
-    color: white;
+/* color modifiers */
+
+.o-row--neutral-x-light {
+    background-color: #F7F7FA;
 }
 
-.o-row--grey-dark {
-    background-color: #111;
-    color: white;
+.o-row--primary-base {
+    background-color: #5051DB;
+    color: #fff;
+}
+
+/* .o-row--header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 100;
+} */
+
+/* size modifiers */
+
+.o-row--sm {
+    padding: 16px 24px;
+}
+
+.o-row--lg {
+    padding: 48px 24px 24px;
+}
+
+.o-row--top {
+    padding-top: 32px;
 }
 
 @media (min-width: 768px) {
-    .o-row--lg {
-        padding: 48px 48px 24px;
+    .o-row {
+        overflow: auto;
+        padding: 24px 48px 0;
     }
+
+    .o-row--sm {
+        padding: 16px 48px;
+    }
+
+    .o-row--lg {
+        padding: 72px 48px 48px;
+    }
+
+    .o-row--top {
+        padding-top: 56px;
+    }
+}
+
+/* padding modifiers */
+
+.o-row--clear {
+    padding: 0;
+}
+
+.o-row--clear-top {
+    padding-top: 0;
+}
+
+.o-row--clear-bottom {
+    padding-bottom: 0;
 }
 
 /*
