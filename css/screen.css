@@ -445,10 +445,32 @@ a:focus {
 \*------------------------------------*/
 
 /*
-    Component: Component name
+    Component: Logo
     ---
-    Component description
+    Website main logo
 */
+
+.c-logo {
+    display: flex;
+    align-items: center;
+}
+
+.c-logo__symbol {
+    width: 130px;
+    height: 40px;
+}
+
+.c-logo-mark__path-1 {
+    fill: #3887f7;
+}
+
+.c-logo-mark__path-2 {
+    fill: #5051db;
+}
+
+.c-logo__name {
+    fill: #231f20;
+}
 
 /*
     Component: layout block
