@@ -704,6 +704,16 @@ a:focus {
 \*------------------------------------*/
 
 /*
+    Utilities: color
+    ---
+    Utility classes to put specific colors onto elements
+*/
+
+.u-color-primary-base {
+    color: #5051DB;
+}
+
+/*
     Utilities: spacing
     ---
     Utility classes to put specific margins and paddings onto elements
