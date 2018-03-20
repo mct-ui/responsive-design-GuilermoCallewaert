@@ -486,12 +486,51 @@ a:focus {
     }
 }
 
+/*
+    Component: Nav
+    ---
+    Main navigation of the site
+*/
+
+.c-nav {
+    display: none;
+    font-size: 18px;
+    line-height: 24px;
 }
 
-.c-layout-block--ellipsis {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.c-nav__link,
+.c-nav__link:visited,
+.c-nav__link:active {
+    text-decoration: none;
+    font-weight: 400;
+    color: #202024;
+    display: block;
+    padding: 8px 0;
+}
+
+.c-nav__link--meta,
+.c-nav__link--meta:visited,
+.c-nav__link--meta:active {
+    color: #6C6C75;
+}
+
+.c-nav__link:hover {
+    color: #5051db;
+}
+
+@media (min-width: 992px) {
+    .c-nav {
+        display: block;
+    }
+
+    .c-nav__list {
+        display: flex;
+        margin: 0 -16px;
+    }
+
+    .c-nav__link {
+        padding: 8px 16px;
+    }
 }
 
 /*
