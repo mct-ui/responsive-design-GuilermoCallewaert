@@ -638,6 +638,67 @@ a:focus {
     }
 }
 
+/*
+    Component: CTA link
+    ---
+    Small cta link with custom animation
+*/
+
+.c-link-cta {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 4px 0;
+    transition: color .175s ease-in;
+    /* opacity: .7; */
+}
+
+.c-link-cta,
+.c-link-cta:visited,
+.c-link-cta:active {
+    color: #7373F5;
+}
+
+.c-link-cta::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 1px;
+    width: 50%;
+    background-color: #7373F5;
+    transition: width .175s ease-in;
+}
+
+.c-link-cta:hover {
+    color: #5051DB;
+}
+
+.c-link-cta:hover::after {
+    width: 100%;
+    background-color: #5051DB;
+}
+
+/* inversed */
+
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #fff;
+}
+
+.c-link-cta--inverse::after {
+    background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::after {
+    background-color: #fff;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
