@@ -749,12 +749,16 @@ a:focus {
     Utility classes to put specific max widths onto elements
 */
 
+.u-max-width-xs {
+    max-width: 18em !important;
+}
+
 .u-max-width-sm {
     max-width: 36em !important;
 }
 
 .u-max-width-md {
-    max-width: 45em !important;
+    max-width: 42em !important;
 }
 
 .u-max-width-lg {
