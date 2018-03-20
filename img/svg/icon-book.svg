@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1169 2640 112 112">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #202024;
+      }
+    </style>
+  </defs>
+  <g id="book" transform="translate(1168.5 2639.9)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-1" width="36.324" height="3.027" transform="translate(74.662 99.992)"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" class="cls-1" width="108.973" height="3.027" transform="translate(2.014 109.073)"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-1" width="3.027" height="63.568" transform="translate(54.986 19.776)"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-1" width="27.243" height="3.027" transform="translate(11.095 18.262)"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" class="cls-1" width="27.243" height="3.027" transform="translate(11.095 27.343)"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-1" width="9.081" height="3.027" transform="translate(29.257 63.668)"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" class="cls-1" width="9.081" height="3.027" transform="translate(29.257 72.749)"/>
+    <path id="Path_11" data-name="Path 11" class="cls-1" d="M57.307,103.019H2.014V99.992H55.693c5.045-7.568,11-9.081,18.969-9.081h34.811V3.127H74.662c-7.265,0-11,2.523-17.052,8.677L56.5,12.814,55.39,11.7C49.336,5.65,45.6,3.026,38.338,3.026H3.527V90.81l43.892.1v3.027L.5,93.837V.1H38.338C46.814.1,51.354,3.531,56.5,8.576,61.646,3.531,66.186.1,74.662.1H112.5V93.938H74.662c-7.568,0-12.411,1.312-16.85,8.375Z"/>
+    <rect id="Rectangle_31" data-name="Rectangle 31" class="cls-1" width="9.081" height="3.027" transform="translate(92.824 18.262)"/>
+    <rect id="Rectangle_32" data-name="Rectangle 32" class="cls-1" width="9.081" height="3.027" transform="translate(92.824 36.424)"/>
+    <rect id="Rectangle_33" data-name="Rectangle 33" class="cls-1" width="9.081" height="3.027" transform="translate(92.824 27.343)"/>
+    <rect id="Rectangle_34" data-name="Rectangle 34" class="cls-1" width="27.243" height="3.027" transform="translate(74.662 54.586)"/>
+    <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-1" width="27.243" height="3.027" transform="translate(74.662 45.505)"/>
+    <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-1" width="27.243" height="3.027" transform="translate(74.662 63.668)"/>
+    <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-1" width="18.162" height="3.027" transform="translate(74.662 72.749)"/>
+    <path id="Path_12" data-name="Path 12" class="cls-1" d="M84.608,37.789H72.5V16.6H84.608Zm-9.081-3.027h6.054V19.627H75.527Z" transform="translate(0.649 0.149)"/>
+    <path id="Path_13" data-name="Path 13" class="cls-1" d="M39.608,48.208H27.5V36.1H39.608Zm-9.081-3.027h6.054V39.127H30.527Z" transform="translate(0.243 0.324)"/>
+    <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-1" width="9.081" height="3.027" transform="translate(11.095 36.122)"/>
+    <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-1" width="9.081" height="3.027" transform="translate(11.095 45.505)"/>
+    <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-1" width="26.739" height="3.027" transform="translate(11.095 54.586)"/>
+    <path id="Path_14" data-name="Path 14" class="cls-1" d="M21.608,75.208H9.5V63.1H21.608Zm-9.081-3.027h6.054V66.127H12.527Z" transform="translate(0.081 0.568)"/>
+  </g>
+</svg>

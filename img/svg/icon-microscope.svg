@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="583.4 1996 95.475 112">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #202024;
+      }
+    </style>
+  </defs>
+  <g id="microscope" transform="translate(583.4 1996)">
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M95.187,110.34H14.4L26.64,98.1H82.946Zm-73.443-3.06h66.1l-6.12-6.12H27.864Z" transform="translate(0.289 1.66)"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-1" width="36.721" height="3.06" transform="translate(0 72.219)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M54.72,101.34a6.12,6.12,0,1,1,6.12-6.12A6.138,6.138,0,0,1,54.72,101.34Zm0-9.18a3.06,3.06,0,1,0,3.06,3.06A3.069,3.069,0,0,0,54.72,92.16Z" transform="translate(0.974 1.479)"/>
+    <path id="Path_5" data-name="Path 5" class="cls-1" d="M54.12,38.34a6.12,6.12,0,1,1,6.12-6.12A6.138,6.138,0,0,1,54.12,38.34Zm0-9.18a3.06,3.06,0,1,0,3.06,3.06A3.005,3.005,0,0,0,54.12,29.16Z" transform="translate(0.962 0.217)"/>
+    <path id="Path_6" data-name="Path 6" class="cls-1" d="M31.6,48.14l-15.2-15.2L49.041.3l15.1,15.1Zm-10.812-15.2L31.6,43.754,59.854,15.5,49.041,4.686Z" transform="translate(0.329 -0.3)"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-1" width="3.06" height="18.361" transform="translate(35.334 16.195) rotate(-45)"/>
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M22.97,49.619l-2.142-2.142,5.406-5.406-4.386-4.386L16.442,43.09,14.3,40.948,21.848,33.4l8.67,8.67Z" transform="translate(0.287 0.363)"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-1" width="3.06" height="9.18" transform="translate(8.106 49.947) rotate(-45)"/>
+    <path id="Path_8" data-name="Path 8" class="cls-1" d="M54,92.671v-3.06A25.989,25.989,0,0,0,80.011,63.6h3.06A29.124,29.124,0,0,1,54,92.671Z" transform="translate(1.082 0.968)"/>
+    <path id="Path_9" data-name="Path 9" class="cls-1" d="M35.158,85.054A29.54,29.54,0,0,1,27.1,73.12l2.856-1.02A27.131,27.131,0,0,0,37.1,82.81Z" transform="translate(0.543 1.139)"/>
+    <path id="Path_10" data-name="Path 10" class="cls-1" d="M54.727,102.6A38.216,38.216,0,0,1,17.7,73.94l2.958-.714A35.2,35.2,0,1,0,54.727,29.16V26.1a38.251,38.251,0,0,1,0,76.5Z" transform="translate(0.355 0.217)"/>
+  </g>
+</svg>
