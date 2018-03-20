@@ -50,6 +50,13 @@ html {
     box-sizing: inherit;
 }
 
+@media (min-width: 768px) {
+    html {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
