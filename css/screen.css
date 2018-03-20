@@ -610,6 +610,31 @@ a:focus {
     }
 }
 
+/*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+    display: flex;
+    align-items: flex-start;
+}
+
+.c-title-icon__icon {
+    height: 70px;
+    margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .c-title-icon__icon {
+        height: 84px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .c-title-icon__icon {
+        height: 112px;
     }
 }
 
