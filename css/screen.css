@@ -450,6 +450,7 @@ a:focus {
 .c-logo {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .c-logo__symbol {
@@ -475,12 +476,22 @@ a:focus {
     Main header of the website
 */
 
+.c-header__nav {
+    display: none;
+}
+
 @media (min-width: 992px) {
     .c-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
+    .c-header__nav {
+        display: block;
+    }
+}
+
 /*
     Component: footer
     ---
@@ -548,19 +559,26 @@ a:focus {
 */
 
 .c-nav {
-    display: none;
+    /* display: none; */
     font-size: 18px;
     line-height: 24px;
+}
+
+.c-nav__list {
+    margin-bottom: 0;
+}
+
+.c-nav__link {
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    padding: 8px 0;
 }
 
 .c-nav__link,
 .c-nav__link:visited,
 .c-nav__link:active {
-    text-decoration: none;
-    font-weight: 400;
     color: #202024;
-    display: block;
-    padding: 8px 0;
 }
 
 .c-nav__link--meta,
@@ -573,11 +591,7 @@ a:focus {
     color: #5051db;
 }
 
-@media (min-width: 992px) {
-    .c-nav {
-        display: block;
-    }
-
+@media (min-width: 768px) {
     .c-nav__list {
         display: flex;
         margin: 0 -16px;
