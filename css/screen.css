@@ -214,6 +214,11 @@ a:focus {
     color: #fff;
 }
 
+.o-row--gradient-1 {
+    background: linear-gradient(to top right, #5051DB, #3887F7);
+    color: #fff;
+}
+
 /* .o-row--header {
     position: fixed;
     top: 0;
