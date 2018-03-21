@@ -229,7 +229,6 @@ a:focus {
     padding: 16px 24px;
 }
 
-.o-row--md,
 .o-row--lg {
     padding: 48px 24px 24px;
 }
@@ -242,6 +241,10 @@ a:focus {
     .o-row {
         padding-left: 48px;
         padding-right: 48px;
+    }
+
+    .o-row--md {
+        padding: 48px 48px 24px;
     }
 
     .o-row--lg {
