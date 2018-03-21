@@ -444,8 +444,13 @@ a:focus {
 }
 
 .c-logo__symbol {
-    width: 130px;
-    height: 40px;
+    height: 32px;
+}
+
+@media (min-width: 768px) {
+    .c-logo__symbol {
+        height: 40px;
+    }
 }
 
 /*
