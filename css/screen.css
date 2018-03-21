@@ -245,26 +245,20 @@ a:focus {
     }
 
     .o-row--md {
-        padding: 48px 48px 24px;
+        padding-top: 48px;
+        padding-bottom: 24px;
     }
 
     .o-row--lg {
-        padding: 72px 48px 48px;
+        padding-top: 72px;
+        padding-bottom: 48px;
     }
 }
 
-/* padding modifiers */
-
-.o-row--clear {
-    padding: 0;
-}
+/* padding clear modifiers */
 
 .o-row--clear-top {
     padding-top: 0;
-}
-
-.o-row--clear-bottom {
-    padding-bottom: 0;
 }
 
 /*
