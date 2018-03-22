@@ -1,0 +1,16 @@
+/*
+    Component: header
+    ---
+    Main header of the website
+*/
+
+.c-header__nav {
+}
+
+@media (min-width: 992px) {
+    .c-header {
+    }
+
+    .c-header__nav {
+    }
+}

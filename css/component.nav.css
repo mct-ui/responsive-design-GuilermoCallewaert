@@ -1,0 +1,35 @@
+/*
+    Component: Nav
+    ---
+    Main navigation of the site
+*/
+
+.c-nav {
+}
+
+.c-nav__link {
+}
+
+.c-nav__link,
+.c-nav__link:visited,
+.c-nav__link:active {
+    color: #202024;
+}
+
+.c-nav__link--meta,
+.c-nav__link--meta:visited,
+.c-nav__link--meta:active {
+    color: #6C6C75;
+}
+
+.c-nav__link:hover {
+    color: #5051db;
+}
+
+@media (min-width: 768px) {
+    .c-nav__list {
+    }
+
+    .c-nav__link {
+    }
+}

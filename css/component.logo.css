@@ -1,0 +1,16 @@
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+}
+
+.c-logo__symbol {
+}
+
+@media (min-width: 768px) {
+    .c-logo__symbol {
+    }
+}
