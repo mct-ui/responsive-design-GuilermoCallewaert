@@ -328,33 +328,19 @@ a:focus {
 \*------------------------------------*/
 
 /*
-    Utilities: spacing
     ---
-    Utility classes to put specific margins and paddings onto elements
 */
 
-.u-mb-clear {
-    margin-bottom: 0 !important;
 }
 
-.u-mb-xs {
-    margin-bottom: 4px !important;
 }
 
-.u-mb-sm {
-    margin-bottom: 8px !important;
 }
 
-.u-mb-md {
-    margin-bottom: 16px !important;
 }
 
-.u-mb-lg {
-    margin-bottom: 32px !important;
 }
 
-.u-mb-xl {
-    margin-bottom: 48px !important;
 }
 
 /*
