@@ -15,7 +15,8 @@
 .c-nav__link:active {
 }
 
-.c-nav__link:hover {
+.c-nav__link:hover,
+.c-nav__link:focus {
 }
 
 @media (min-width: 768px) {
